@@ -1,0 +1,6 @@
+Program Version,Conversion 9.2 => 9.3
+   ** Severe  ** No items found for Required Object=Building
+   ** Severe  ** No items found for Required Object=GlobalGeometryRules
+   ** Severe  ** Other miscellaneous errors found in input
+   ** Severe  ** Out of "range" values and/or blank required fields found in input
+   ************* Conversion Completed Successfully-- 0 Warning; 4 Severe Errors

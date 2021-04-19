@@ -1,0 +1,22 @@
+!-Generator IDFEditor 1.51
+!-Option OriginalOrderTop UseSpecialFormat
+
+!-NOTE: All comments with '!-' are ignored by the IDFEditor and are generated automatically.
+!-      Use '!' comments if they need to be retained when using the IDFEditor.
+
+FuelFactors,
+    NaturalGas,              !- Existing Fuel Resource Name
+    ,                        !- Units of Measure
+    ,                        !- Energy per Unit Factor
+    1.1,                     !- Source Energy Factor {J/J}
+    ,                        !- Source Energy Schedule Name
+    116;                     !- CO2 Emission Factor {g/MJ}
+
+FuelFactors,
+    Electricity,             !- Existing Fuel Resource Name
+    ,                        !- Units of Measure
+    ,                        !- Energy per Unit Factor
+    2.2,                     !- Source Energy Factor {J/J}
+    ,                        !- Source Energy Schedule Name
+    125;                     !- CO2 Emission Factor {g/MJ}
+

@@ -1,0 +1,24 @@
+!-Generator IDFEditor 1.51
+!-Option OriginalOrderTop UseSpecialFormat
+
+!-NOTE: All comments with '!-' are ignored by the IDFEditor and are generated automatically.
+!-      Use '!' comments if they need to be retained when using the IDFEditor.
+
+Site:GroundTemperature:FCfactorMethod,7.4,4,2.9,0.7,1.1,3.8,4.7,8.6,10.7,14.1,12.4,11;
+
+FuelFactors,
+    NaturalGas,              !- Existing Fuel Resource Name
+    ,                        !- Units of Measure
+    ,                        !- Energy per Unit Factor
+    1.1,                     !- Source Energy Factor {J/J}
+    ,                        !- Source Energy Schedule Name
+    116;                     !- CO2 Emission Factor {g/MJ}
+
+FuelFactors,
+    Electricity,             !- Existing Fuel Resource Name
+    ,                        !- Units of Measure
+    ,                        !- Energy per Unit Factor
+    2.5,                     !- Source Energy Factor {J/J}
+    ,                        !- Source Energy Schedule Name
+    62.8;                    !- CO2 Emission Factor {g/MJ}
+
