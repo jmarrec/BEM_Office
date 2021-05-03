@@ -21881,7 +21881,7 @@ OS:ShadingControl,
   ,                                       !- Construction with Shading Name
   {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
   OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
-  {76b0bf7f-547d-4a75-a3d3-c69f75f01757}, !- Schedule Name
+  {ee896a86-ca46-4ed7-b9d8-e9d7c40687df}, !- Schedule Name
   21,                                     !- Setpoint
   Yes,                                    !- Shading Control Is Scheduled
   ,                                       !- Glare Control Is Active

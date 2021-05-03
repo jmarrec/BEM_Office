@@ -1,0 +1,2358 @@
+{
+  "analysis": {
+    "display_name": "PAT_Office_Run2_Test shading",
+    "name": "PAT_Office_Run2_Test shading",
+    "output_variables": [],
+    "problem": {
+      "workflow": [
+        {
+          "name": "swap_construction_in_construction_set_3",
+          "display_name": "Change glazing",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "SwapConstructionInConstructionSet",
+          "measure_definition_directory": "./measures/Swap Construction In Construction Set",
+          "measure_definition_directory_local": "C:\\Users\\souvi\\Documents\\These\\80_Calculations\\04_BEM\\E+_Office_Repo\\PAT\\measures\\Swap Construction In Construction Set",
+          "measure_definition_display_name": "Change glazing",
+          "measure_definition_name": "swap_construction_in_construction_set_3",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "f2dd07a6-51e8-4c66-b814-861f3b0ee678",
+          "measure_definition_version_uuid": "c6127221-b090-4bf7-8f2e-9790baac95d9",
+          "uuid": "f2dd07a6-51e8-4c66-b814-861f3b0ee678",
+          "version_uuid": "c6127221-b090-4bf7-8f2e-9790baac95d9",
+          "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets.",
+          "taxonomy": "Envelope.Construction Sets",
+          "arguments": [],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Skip Change glazing",
+                "display_name_short": "Skip entire measure",
+                "name": "__SKIP__",
+                "value_type": "boolean",
+                "default_value": false,
+                "value": false
+              },
+              "display_name": "Skip Change glazing",
+              "display_name_short": "Skip entire measure",
+              "variable_type": "variable",
+              "units": null,
+              "minimum": false,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": false,
+              "variable": true,
+              "uncertainty_description": {
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": []
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": false
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": false
+                  },
+                  {
+                    "name": "modes",
+                    "value": false
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  },
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      }
+                    ]
+                  }
+                ],
+                "type": "discrete"
+              },
+              "workflow_index": 0
+            },
+            {
+              "argument": {
+                "display_name": "Pick a construction to be replaced:",
+                "display_name_short": "old_construction",
+                "name": "old_construction",
+                "value_type": "string",
+                "default_value": "0A0_8-10-55.2_bronze",
+                "value": "0A0_8-10-55.2_bronze",
+                "choice_display_names": [
+                  "0A0_8-10-55.2_bronze",
+                  "0A0_NORTH_8-10-55.2_bronze",
+                  "0AS_8-10-55.2_bronze",
+                  "0AS_NORTH_8-10-55.2_bronze",
+                  "0AT_8-10-55.2_bronze",
+                  "0AT_NORTH_8-10-55.2_bronze",
+                  "0B0_8-10-55.2_clear",
+                  "0BS_8-10-55.2_clear",
+                  "0BT_8-10-55.2_clear",
+                  "1A0_55.2_clear",
+                  "1B0_|55.2_coated",
+                  "2A0_8-18Arg-|55.2_midSHG_midLT",
+                  "2AS_8-18Arg-|55.2_midSHG_midLT",
+                  "2AT_8-18Arg-|55.2_midSHG_midLT",
+                  "2B0_8-18Arg-|55.2_midSHG_highLT",
+                  "2BS_8-18Arg-|55.2_midSHG_highLT",
+                  "2BT_8-18Arg-|55.2_midSHG_highLT",
+                  "2C0_8-18Arg-|55.2_highSHG_highLT",
+                  "2CS_8-18Arg-|55.2_highSHG_highLT",
+                  "2CT_8-18Arg-|55.2_highSHG_highLT_TC",
+                  "2D0_8-18Arg-|55.2_lowSHG_highLT",
+                  "2DS_8-18Arg-|55.2_lowSHG_highLT",
+                  "2DT_8-18Arg-|55.2_lowSHG_highLT",
+                  "2E0_8-18Arg-|55.2_lowSHG_midLT",
+                  "2ES_8-18Arg-|55.2_lowSHG_midLT",
+                  "2ET_8-18Arg-|55.2_lowSHG_midLT",
+                  "2F0_8-18Arg-|55.2_lowSHG_lowLT",
+                  "2FS_8-18Arg-|55.2_lowSHG_lowLT",
+                  "2FT_8-18Arg-|55.2_lowSHG_lowLT",
+                  "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
+                  "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
+                  "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
+                  "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
+                  "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
+                  "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+                  "_ConcreteAndCarpet",
+                  "_ConcreteSlab_200mm",
+                  "_Concrete_300mm",
+                  "_Door_Metal",
+                  "_DropCeiling",
+                  "_ExtDoor_Main entrance",
+                  "_Gypsum13_Concrete200mm_Gypsum13",
+                  "_Roof",
+                  "_Spandrel_Equivalent",
+                  "_WoodFurnitures"
+                ]
+              },
+              "display_name": "Pick a construction to be replaced:",
+              "display_name_short": "Pick a construction to be replaced:",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": "0A0_8-10-55.2_bronze",
+              "maximum": "0A0_8-10-55.2_bronze",
+              "relation_to_output": null,
+              "static_value": "0A0_8-10-55.2_bronze",
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": "0A0_8-10-55.2_bronze"
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": "0A0_8-10-55.2_bronze"
+                  },
+                  {
+                    "name": "modes",
+                    "value": null
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 1
+            },
+            {
+              "argument": {
+                "display_name": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
+                "display_name_short": "new_construction",
+                "name": "new_construction",
+                "value_type": "string",
+                "default_value": "0B0_8-10-55.2_clear",
+                "value": "0B0_8-10-55.2_clear",
+                "choice_display_names": [
+                  "0A0_8-10-55.2_bronze",
+                  "0A0_NORTH_8-10-55.2_bronze",
+                  "0AS_8-10-55.2_bronze",
+                  "0AS_NORTH_8-10-55.2_bronze",
+                  "0AT_8-10-55.2_bronze",
+                  "0AT_NORTH_8-10-55.2_bronze",
+                  "0B0_8-10-55.2_clear",
+                  "0BS_8-10-55.2_clear",
+                  "0BT_8-10-55.2_clear",
+                  "1A0_55.2_clear",
+                  "1B0_|55.2_coated",
+                  "2A0_8-18Arg-|55.2_midSHG_midLT",
+                  "2AS_8-18Arg-|55.2_midSHG_midLT",
+                  "2AT_8-18Arg-|55.2_midSHG_midLT",
+                  "2B0_8-18Arg-|55.2_midSHG_highLT",
+                  "2BS_8-18Arg-|55.2_midSHG_highLT",
+                  "2BT_8-18Arg-|55.2_midSHG_highLT",
+                  "2C0_8-18Arg-|55.2_highSHG_highLT",
+                  "2CS_8-18Arg-|55.2_highSHG_highLT",
+                  "2CT_8-18Arg-|55.2_highSHG_highLT_TC",
+                  "2D0_8-18Arg-|55.2_lowSHG_highLT",
+                  "2DS_8-18Arg-|55.2_lowSHG_highLT",
+                  "2DT_8-18Arg-|55.2_lowSHG_highLT",
+                  "2E0_8-18Arg-|55.2_lowSHG_midLT",
+                  "2ES_8-18Arg-|55.2_lowSHG_midLT",
+                  "2ET_8-18Arg-|55.2_lowSHG_midLT",
+                  "2F0_8-18Arg-|55.2_lowSHG_lowLT",
+                  "2FS_8-18Arg-|55.2_lowSHG_lowLT",
+                  "2FT_8-18Arg-|55.2_lowSHG_lowLT",
+                  "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
+                  "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
+                  "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
+                  "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
+                  "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
+                  "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+                  "_ConcreteAndCarpet",
+                  "_ConcreteSlab_200mm",
+                  "_Concrete_300mm",
+                  "_Door_Metal",
+                  "_DropCeiling",
+                  "_ExtDoor_Main entrance",
+                  "_Gypsum13_Concrete200mm_Gypsum13",
+                  "_Roof",
+                  "_Spandrel_Equivalent",
+                  "_WoodFurnitures"
+                ]
+              },
+              "display_name": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
+              "display_name_short": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": "0B0_8-10-55.2_clear",
+              "maximum": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+              "relation_to_output": null,
+              "static_value": "0B0_8-10-55.2_clear",
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0B0_8-10-55.2_clear",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "1A0_55.2_clear",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "1B0_|55.2_coated",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2A0_8-18Arg-|55.2_midSHG_midLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2B0_8-18Arg-|55.2_midSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2C0_8-18Arg-|55.2_highSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2D0_8-18Arg-|55.2_lowSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2E0_8-18Arg-|55.2_lowSHG_midLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2F0_8-18Arg-|55.2_lowSHG_lowLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": "0B0_8-10-55.2_clear"
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT"
+                  },
+                  {
+                    "name": "modes",
+                    "value": null
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 2
+            }
+          ],
+          "workflow_index": 0
+        },
+        {
+          "name": "swap_construction_in_construction_set_3_2",
+          "display_name": "Add shading",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "SwapConstructionInConstructionSet",
+          "measure_definition_directory": "./measures/Swap Construction In Construction Set",
+          "measure_definition_directory_local": "C:\\Users\\souvi\\Documents\\These\\80_Calculations\\04_BEM\\E+_Office_Repo\\PAT\\measures\\Swap Construction In Construction Set",
+          "measure_definition_display_name": "Add shading",
+          "measure_definition_name": "swap_construction_in_construction_set_3_2",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "f2dd07a6-51e8-4c66-b814-861f3b0ee678",
+          "measure_definition_version_uuid": "c6127221-b090-4bf7-8f2e-9790baac95d9",
+          "uuid": "f2dd07a6-51e8-4c66-b814-861f3b0ee678",
+          "version_uuid": "c6127221-b090-4bf7-8f2e-9790baac95d9",
+          "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets.",
+          "taxonomy": "Envelope.Construction Sets",
+          "arguments": [],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Skip Add shading",
+                "display_name_short": "Skip entire measure",
+                "name": "__SKIP__",
+                "value_type": "boolean",
+                "default_value": false,
+                "value": false
+              },
+              "display_name": "Skip Add shading",
+              "display_name_short": "Skip entire measure",
+              "variable_type": "variable",
+              "units": null,
+              "minimum": false,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": false,
+              "variable": true,
+              "uncertainty_description": {
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": []
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": false
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": false
+                  },
+                  {
+                    "name": "modes",
+                    "value": false
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  },
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      }
+                    ]
+                  }
+                ],
+                "type": "discrete"
+              },
+              "workflow_index": 0
+            },
+            {
+              "argument": {
+                "display_name": "Pick a construction to be replaced:",
+                "display_name_short": "old_construction",
+                "name": "old_construction",
+                "value_type": "string",
+                "default_value": "0A0_8-10-55.2_bronze",
+                "value": "0A0_8-10-55.2_bronze",
+                "choice_display_names": [
+                  "0A0_8-10-55.2_bronze",
+                  "0A0_NORTH_8-10-55.2_bronze",
+                  "0AS_8-10-55.2_bronze",
+                  "0AS_NORTH_8-10-55.2_bronze",
+                  "0AT_8-10-55.2_bronze",
+                  "0AT_NORTH_8-10-55.2_bronze",
+                  "0B0_8-10-55.2_clear",
+                  "0BS_8-10-55.2_clear",
+                  "0BT_8-10-55.2_clear",
+                  "1A0_55.2_clear",
+                  "1B0_|55.2_coated",
+                  "2A0_8-18Arg-|55.2_midSHG_midLT",
+                  "2AS_8-18Arg-|55.2_midSHG_midLT",
+                  "2AT_8-18Arg-|55.2_midSHG_midLT",
+                  "2B0_8-18Arg-|55.2_midSHG_highLT",
+                  "2BS_8-18Arg-|55.2_midSHG_highLT",
+                  "2BT_8-18Arg-|55.2_midSHG_highLT",
+                  "2C0_8-18Arg-|55.2_highSHG_highLT",
+                  "2CS_8-18Arg-|55.2_highSHG_highLT",
+                  "2CT_8-18Arg-|55.2_highSHG_highLT_TC",
+                  "2D0_8-18Arg-|55.2_lowSHG_highLT",
+                  "2DS_8-18Arg-|55.2_lowSHG_highLT",
+                  "2DT_8-18Arg-|55.2_lowSHG_highLT",
+                  "2E0_8-18Arg-|55.2_lowSHG_midLT",
+                  "2ES_8-18Arg-|55.2_lowSHG_midLT",
+                  "2ET_8-18Arg-|55.2_lowSHG_midLT",
+                  "2F0_8-18Arg-|55.2_lowSHG_lowLT",
+                  "2FS_8-18Arg-|55.2_lowSHG_lowLT",
+                  "2FT_8-18Arg-|55.2_lowSHG_lowLT",
+                  "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
+                  "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
+                  "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
+                  "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
+                  "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
+                  "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+                  "_ConcreteAndCarpet",
+                  "_ConcreteSlab_200mm",
+                  "_Concrete_300mm",
+                  "_Door_Metal",
+                  "_DropCeiling",
+                  "_ExtDoor_Main entrance",
+                  "_Gypsum13_Concrete200mm_Gypsum13",
+                  "_Roof",
+                  "_Spandrel_Equivalent",
+                  "_WoodFurnitures"
+                ]
+              },
+              "display_name": "Pick a construction to be replaced:",
+              "display_name_short": "Pick a construction to be replaced:",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": "0A0_8-10-55.2_bronze",
+              "maximum": "0A0_8-10-55.2_bronze",
+              "relation_to_output": null,
+              "static_value": "0A0_8-10-55.2_bronze",
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0A0_8-10-55.2_bronze",
+                        "weight": 0.03225806451612903
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": "0A0_8-10-55.2_bronze"
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": "0A0_8-10-55.2_bronze"
+                  },
+                  {
+                    "name": "modes",
+                    "value": null
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 1
+            },
+            {
+              "argument": {
+                "display_name": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
+                "display_name_short": "new_construction",
+                "name": "new_construction",
+                "value_type": "string",
+                "default_value": "0B0_8-10-55.2_clear",
+                "value": "0B0_8-10-55.2_clear",
+                "choice_display_names": [
+                  "0A0_8-10-55.2_bronze",
+                  "0A0_NORTH_8-10-55.2_bronze",
+                  "0AS_8-10-55.2_bronze",
+                  "0AS_NORTH_8-10-55.2_bronze",
+                  "0AT_8-10-55.2_bronze",
+                  "0AT_NORTH_8-10-55.2_bronze",
+                  "0B0_8-10-55.2_clear",
+                  "0BS_8-10-55.2_clear",
+                  "0BT_8-10-55.2_clear",
+                  "1A0_55.2_clear",
+                  "1B0_|55.2_coated",
+                  "2A0_8-18Arg-|55.2_midSHG_midLT",
+                  "2AS_8-18Arg-|55.2_midSHG_midLT",
+                  "2AT_8-18Arg-|55.2_midSHG_midLT",
+                  "2B0_8-18Arg-|55.2_midSHG_highLT",
+                  "2BS_8-18Arg-|55.2_midSHG_highLT",
+                  "2BT_8-18Arg-|55.2_midSHG_highLT",
+                  "2C0_8-18Arg-|55.2_highSHG_highLT",
+                  "2CS_8-18Arg-|55.2_highSHG_highLT",
+                  "2CT_8-18Arg-|55.2_highSHG_highLT_TC",
+                  "2D0_8-18Arg-|55.2_lowSHG_highLT",
+                  "2DS_8-18Arg-|55.2_lowSHG_highLT",
+                  "2DT_8-18Arg-|55.2_lowSHG_highLT",
+                  "2E0_8-18Arg-|55.2_lowSHG_midLT",
+                  "2ES_8-18Arg-|55.2_lowSHG_midLT",
+                  "2ET_8-18Arg-|55.2_lowSHG_midLT",
+                  "2F0_8-18Arg-|55.2_lowSHG_lowLT",
+                  "2FS_8-18Arg-|55.2_lowSHG_lowLT",
+                  "2FT_8-18Arg-|55.2_lowSHG_lowLT",
+                  "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
+                  "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
+                  "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
+                  "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
+                  "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
+                  "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+                  "_ConcreteAndCarpet",
+                  "_ConcreteSlab_200mm",
+                  "_Concrete_300mm",
+                  "_Door_Metal",
+                  "_DropCeiling",
+                  "_ExtDoor_Main entrance",
+                  "_Gypsum13_Concrete200mm_Gypsum13",
+                  "_Roof",
+                  "_Spandrel_Equivalent",
+                  "_WoodFurnitures"
+                ]
+              },
+              "display_name": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
+              "display_name_short": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": "0B0_8-10-55.2_clear",
+              "maximum": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+              "relation_to_output": null,
+              "static_value": "0B0_8-10-55.2_clear",
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "0B0_8-10-55.2_clear",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "1A0_55.2_clear",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "1B0_|55.2_coated",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2A0_8-18Arg-|55.2_midSHG_midLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2B0_8-18Arg-|55.2_midSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2C0_8-18Arg-|55.2_highSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2D0_8-18Arg-|55.2_lowSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2E0_8-18Arg-|55.2_lowSHG_midLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "2F0_8-18Arg-|55.2_lowSHG_lowLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+                        "weight": 0.03225806451612903
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": "0B0_8-10-55.2_clear"
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT"
+                  },
+                  {
+                    "name": "modes",
+                    "value": null
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 2
+            }
+          ],
+          "workflow_index": 1
+        },
+        {
+          "name": "envelope_and_internal_load_breakdown",
+          "display_name": "Envelope and Internal Load Breakdown",
+          "measure_type": "ReportingMeasure",
+          "measure_definition_class_name": "EnvelopeAndInternalLoadBreakdown",
+          "measure_definition_directory": "./measures/Envelope and Internal Load Breakdown",
+          "measure_definition_directory_local": "C:\\Users\\souvi\\Documents\\These\\80_Calculations\\04_BEM\\E+_Office_Repo\\PAT\\measures\\Envelope and Internal Load Breakdown",
+          "measure_definition_display_name": "Envelope and Internal Load Breakdown",
+          "measure_definition_name": "envelope_and_internal_load_breakdown",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "8f0e1fbb-8bc6-46e5-b6e4-db59177e2c02",
+          "measure_definition_version_uuid": "37f5d9b0-6fcd-486c-aae7-202f427228b6",
+          "uuid": "8f0e1fbb-8bc6-46e5-b6e4-db59177e2c02",
+          "version_uuid": "37f5d9b0-6fcd-486c-aae7-202f427228b6",
+          "description": "Report provides annual and monthly views into heat gains and losses for envelope and internal loads.",
+          "taxonomy": "Reporting.QAQC",
+          "arguments": [],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Skip Envelope and Internal Load Breakdown",
+                "display_name_short": "Skip entire measure",
+                "name": "__SKIP__",
+                "value_type": "boolean",
+                "default_value": false,
+                "value": false
+              },
+              "display_name": "Skip Envelope and Internal Load Breakdown",
+              "display_name_short": "Skip entire measure",
+              "variable_type": "variable",
+              "units": null,
+              "minimum": false,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": false,
+              "variable": true,
+              "uncertainty_description": {
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": []
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": false
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": false
+                  },
+                  {
+                    "name": "modes",
+                    "value": false
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  },
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.03225806451612903
+                      }
+                    ]
+                  }
+                ],
+                "type": "discrete"
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 2
+        }
+      ],
+      "algorithm": {
+        "objective_functions": []
+      },
+      "analysis_type": null,
+      "design_alternatives": [
+        {
+          "name": "1_0A0",
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "envelope_and_internal_load_breakdown",
+              "description": "Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_0B0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 0B0",
+              "description": "From 8-10-55.2_bronze to 8-10-55.2_clear"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_1A0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 1A0",
+              "description": "From 8-10-55.2_bronze to 55.2_clear"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_1B0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 1B0",
+              "description": "From 8-10-55.2_bronze to |55.2_solar control"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_2A0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 2A0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_midSHG_midLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_2B0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 2B0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_midSHG_highLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_2C0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 2C0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_highSHG_highLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_2D0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 2D0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_highLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_2E0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 2E0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_midLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_2F0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 2F0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_lowLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_3A0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 3A0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_highLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_3B0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 3B0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_midLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_3C0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 3C0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_highSHG_highLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_3D0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 3D0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_midSHG_midLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_3E0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 3E0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_midSHG_highLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "1_3F0",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingOFF.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "0A0 > 3F0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_lowLT"
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "swap_construction_in_construction_set_3_2",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_0BS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 0B0",
+              "description": "From 8-10-55.2_bronze to 8-10-55.2_clear"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_1AS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 1A0",
+              "description": "From 8-10-55.2_bronze to 55.2_clear"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_1BS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 1B0",
+              "description": "From 8-10-55.2_bronze to |55.2_solar control"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_2AS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 2A0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_midSHG_midLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_2BS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 2B0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_midSHG_highLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_2CS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 2C0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_highSHG_highLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_2DS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 2D0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_highLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_2ES",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 2E0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_midLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_2FS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 2F0",
+              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_lowLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_3AS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 3A0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_highLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_3BS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 3B0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_midLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_3CS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 3C0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_highSHG_highLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_3DS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 3D0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_midSHG_midLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_3ES",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 3E0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_midSHG_highLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        },
+        {
+          "name": "2_3FS",
+          "seed": {
+            "file_type": "OSM",
+            "path": "./seeds/Office_BXLshadingON.osm"
+          },
+          "options": [
+            {
+              "measure_name": "swap_construction_in_construction_set_3",
+              "workflow_index": 0,
+              "name": "swap_construction_in_construction_set_3",
+              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+            },
+            {
+              "measure_name": "swap_construction_in_construction_set_3_2",
+              "workflow_index": 1,
+              "name": "0A0 > 3F0",
+              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_lowLT"
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            }
+          ]
+        }
+      ]
+    },
+    "seed": {
+      "file_type": "OSM",
+      "path": "./seeds/Office_BXL.osm"
+    },
+    "weather_file": {
+      "file_type": "EPW",
+      "path": "./weather/BEL_Brussels.064510_IWEC.epw"
+    },
+    "file_format_version": 1,
+    "cli_debug": "",
+    "cli_verbose": "",
+    "download_reports": true,
+    "download_osw": true,
+    "download_osm": true,
+    "download_zip": true,
+    "run_workflow_timeout": 28800,
+    "upload_results_timeout": 28800,
+    "initialize_worker_timeout": 28800,
+    "server_scripts": {}
+  }
+}

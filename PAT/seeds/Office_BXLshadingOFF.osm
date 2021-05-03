@@ -21860,20 +21860,6 @@ OS:WindowProperty:FrameAndDivider,
   ,                                       !- Inside Reveal Depth {m}
   ;                                       !- Inside Reveal Solar Absorptance
 
-OS:WeatherFile,
-  {d416b8cc-c42e-4c31-95da-6247a851864e}, !- Handle
-  BRUSSELS,                               !- City
-  -,                                      !- State Province Region
-  BEL,                                    !- Country
-  IWEC Data,                              !- Data Source
-  064510,                                 !- WMO Number
-  50.9,                                   !- Latitude {deg}
-  4.53,                                   !- Longitude {deg}
-  1,                                      !- Time Zone {hr}
-  58,                                     !- Elevation {m}
-  BEL_Brussels.064510_IWEC.epw,           !- Url
-  3D9AF327;                               !- Checksum
-
 OS:ShadingControl,
   {b6a090cf-e90b-4a33-8b66-fba2ccaa4035}, !- Handle
   Ext Shading Control,                    !- Name
@@ -23591,4 +23577,18 @@ OS:Schedule:Day,
   24,                                     !- Hour 1
   0,                                      !- Minute 1
   0;                                      !- Value Until Time 1
+
+OS:WeatherFile,
+  {f1af494b-852d-4bf1-94ac-2e116a674d8e}, !- Handle
+  BRUSSELS,                               !- City
+  -,                                      !- State Province Region
+  BEL,                                    !- Country
+  IWEC Data,                              !- Data Source
+  064510,                                 !- WMO Number
+  50.9,                                   !- Latitude {deg}
+  4.53,                                   !- Longitude {deg}
+  1,                                      !- Time Zone {hr}
+  58,                                     !- Elevation {m}
+  BEL_Brussels.064510_IWEC.epw,           !- Url
+  3D9AF327;                               !- Checksum
 

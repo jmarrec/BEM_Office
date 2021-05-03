@@ -36,7 +36,8 @@ temp.htm
 # =========================
 # Directories
 # =========================
-PAT/
+PAT/data
+PAT/localResults
 OS/Office_BXL/
 
 # =========================
