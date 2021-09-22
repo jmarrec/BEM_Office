@@ -21878,10 +21878,10 @@ OS:ShadingControl,
   {b6a090cf-e90b-4a33-8b66-fba2ccaa4035}, !- Handle
   Ext Shading Control,                    !- Name
   ExteriorShade,                          !- Shading Type
-  ,                                       !- Construction with Shading Name
+  {d7b9166a-262e-47ea-a161-d4f5776df636}, !- Construction with Shading Name
   {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
   OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
-  {76b0bf7f-547d-4a75-a3d3-c69f75f01757}, !- Schedule Name
+  {ee896a86-ca46-4ed7-b9d8-e9d7c40687df}, !- Schedule Name
   21,                                     !- Setpoint
   Yes,                                    !- Shading Control Is Scheduled
   ,                                       !- Glare Control Is Active

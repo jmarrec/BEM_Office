@@ -6,33 +6,33 @@
     "problem": {
       "workflow": [
         {
-          "name": "swap_construction_in_construction_set_3",
-          "display_name": "Change glazing",
+          "name": "zedgvrf_with_doas",
+          "display_name": "ZEDG VRF with DOAS",
           "measure_type": "RubyMeasure",
-          "measure_definition_class_name": "SwapConstructionInConstructionSet",
-          "measure_definition_directory": "./measures/Swap Construction In Construction Set",
-          "measure_definition_directory_local": "C:\\Users\\souvi\\Documents\\These\\80_Calculations\\04_BEM\\E+_Office_Repo\\PAT\\measures\\Swap Construction In Construction Set",
-          "measure_definition_display_name": "Change glazing",
-          "measure_definition_name": "swap_construction_in_construction_set_3",
+          "measure_definition_class_name": "ZEDGVRFWithDOAS",
+          "measure_definition_directory": "./measures/ZEDG VRF with DOAS",
+          "measure_definition_directory_local": "C:\\Users\\souvi\\Documents\\These\\80_Calculations\\04_BEM\\E+_Office_Repo\\PAT\\measures\\ZEDG VRF with DOAS",
+          "measure_definition_display_name": "ZEDG VRF with DOAS",
+          "measure_definition_name": "zedgvrf_with_doas",
           "measure_definition_name_xml": null,
-          "measure_definition_uuid": "f2dd07a6-51e8-4c66-b814-861f3b0ee678",
-          "measure_definition_version_uuid": "c6127221-b090-4bf7-8f2e-9790baac95d9",
-          "uuid": "f2dd07a6-51e8-4c66-b814-861f3b0ee678",
-          "version_uuid": "c6127221-b090-4bf7-8f2e-9790baac95d9",
-          "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets.",
-          "taxonomy": "Envelope.Construction Sets",
+          "measure_definition_uuid": "633b8efc-7bcb-4aa0-8821-d0ee08f960db",
+          "measure_definition_version_uuid": "8a3bcad6-b4de-4b76-bfc3-44177212c6fa",
+          "uuid": "633b8efc-7bcb-4aa0-8821-d0ee08f960db",
+          "version_uuid": "8a3bcad6-b4de-4b76-bfc3-44177212c6fa",
+          "description": "Adds VRF system with multiple indoor units connected to an outdoor unit.",
+          "taxonomy": "HVAC.Whole System",
           "arguments": [],
           "variables": [
             {
               "argument": {
-                "display_name": "Skip Change glazing",
+                "display_name": "Skip ZEDG VRF with DOAS",
                 "display_name_short": "Skip entire measure",
                 "name": "__SKIP__",
                 "value_type": "boolean",
                 "default_value": false,
                 "value": false
               },
-              "display_name": "Skip Change glazing",
+              "display_name": "Skip ZEDG VRF with DOAS",
               "display_name_short": "Skip entire measure",
               "variable_type": "variable",
               "units": null,
@@ -72,127 +72,15 @@
                     "values_and_weights": [
                       {
                         "value": true,
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       },
                       {
                         "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       },
                       {
                         "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       }
                     ]
                   }
@@ -203,68 +91,29 @@
             },
             {
               "argument": {
-                "display_name": "Pick a construction to be replaced:",
-                "display_name_short": "old_construction",
-                "name": "old_construction",
+                "display_name": "This space type should be part of a ceiling return air plenum.",
+                "display_name_short": "ceilingReturnPlenumSpaceType",
+                "name": "ceilingReturnPlenumSpaceType",
                 "value_type": "string",
-                "default_value": "0A0_8-10-55.2_bronze",
-                "value": "0A0_8-10-55.2_bronze",
+                "default_value": "Plenums",
+                "value": "Plenums",
                 "choice_display_names": [
-                  "0A0_8-10-55.2_bronze",
-                  "0A0_NORTH_8-10-55.2_bronze",
-                  "0AS_8-10-55.2_bronze",
-                  "0AS_NORTH_8-10-55.2_bronze",
-                  "0AT_8-10-55.2_bronze",
-                  "0AT_NORTH_8-10-55.2_bronze",
-                  "0B0_8-10-55.2_clear",
-                  "0BS_8-10-55.2_clear",
-                  "0BT_8-10-55.2_clear",
-                  "1A0_55.2_clear",
-                  "1B0_|55.2_coated",
-                  "2A0_8-18Arg-|55.2_midSHG_midLT",
-                  "2AS_8-18Arg-|55.2_midSHG_midLT",
-                  "2AT_8-18Arg-|55.2_midSHG_midLT",
-                  "2B0_8-18Arg-|55.2_midSHG_highLT",
-                  "2BS_8-18Arg-|55.2_midSHG_highLT",
-                  "2BT_8-18Arg-|55.2_midSHG_highLT",
-                  "2C0_8-18Arg-|55.2_highSHG_highLT",
-                  "2CS_8-18Arg-|55.2_highSHG_highLT",
-                  "2CT_8-18Arg-|55.2_highSHG_highLT_TC",
-                  "2D0_8-18Arg-|55.2_lowSHG_highLT",
-                  "2DS_8-18Arg-|55.2_lowSHG_highLT",
-                  "2DT_8-18Arg-|55.2_lowSHG_highLT",
-                  "2E0_8-18Arg-|55.2_lowSHG_midLT",
-                  "2ES_8-18Arg-|55.2_lowSHG_midLT",
-                  "2ET_8-18Arg-|55.2_lowSHG_midLT",
-                  "2F0_8-18Arg-|55.2_lowSHG_lowLT",
-                  "2FS_8-18Arg-|55.2_lowSHG_lowLT",
-                  "2FT_8-18Arg-|55.2_lowSHG_lowLT",
-                  "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
-                  "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
-                  "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
-                  "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
-                  "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
-                  "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
-                  "_ConcreteAndCarpet",
-                  "_ConcreteSlab_200mm",
-                  "_Concrete_300mm",
-                  "_Door_Metal",
-                  "_DropCeiling",
-                  "_ExtDoor_Main entrance",
-                  "_Gypsum13_Concrete200mm_Gypsum13",
-                  "_Roof",
-                  "_Spandrel_Equivalent",
-                  "_WoodFurnitures"
+                  "Offices",
+                  "Basement spaces",
+                  "Data Centers",
+                  "Core spaces",
+                  "Plenums",
+                  "Offices North"
                 ]
               },
-              "display_name": "Pick a construction to be replaced:",
-              "display_name_short": "Pick a construction to be replaced:",
+              "display_name": "This space type should be part of a ceiling return air plenum.",
+              "display_name_short": "This space type should be part of a ceiling return air plenum.",
               "variable_type": "variable",
               "units": "",
-              "minimum": "0A0_8-10-55.2_bronze",
-              "maximum": "0A0_8-10-55.2_bronze",
+              "minimum": "Plenums",
+              "maximum": "Plenums",
               "relation_to_output": null,
-              "static_value": "0A0_8-10-55.2_bronze",
+              "static_value": "Plenums",
               "uuid": "",
               "version_uuid": "",
               "variable": true,
@@ -276,137 +125,25 @@
                     "values_and_weights": [
                       {
                         "value": "",
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       },
                       {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
+                        "value": "Plenums",
+                        "weight": 0.3333333333333333
                       },
                       {
                         "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       }
                     ]
                   },
                   {
                     "name": "lower_bounds",
-                    "value": "0A0_8-10-55.2_bronze"
+                    "value": "Plenums"
                   },
                   {
                     "name": "upper_bounds",
-                    "value": "0A0_8-10-55.2_bronze"
+                    "value": "Plenums"
                   },
                   {
                     "name": "modes",
@@ -426,68 +163,21 @@
             },
             {
               "argument": {
-                "display_name": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
-                "display_name_short": "new_construction",
-                "name": "new_construction",
-                "value_type": "string",
-                "default_value": "0B0_8-10-55.2_clear",
-                "value": "0B0_8-10-55.2_clear",
-                "choice_display_names": [
-                  "0A0_8-10-55.2_bronze",
-                  "0A0_NORTH_8-10-55.2_bronze",
-                  "0AS_8-10-55.2_bronze",
-                  "0AS_NORTH_8-10-55.2_bronze",
-                  "0AT_8-10-55.2_bronze",
-                  "0AT_NORTH_8-10-55.2_bronze",
-                  "0B0_8-10-55.2_clear",
-                  "0BS_8-10-55.2_clear",
-                  "0BT_8-10-55.2_clear",
-                  "1A0_55.2_clear",
-                  "1B0_|55.2_coated",
-                  "2A0_8-18Arg-|55.2_midSHG_midLT",
-                  "2AS_8-18Arg-|55.2_midSHG_midLT",
-                  "2AT_8-18Arg-|55.2_midSHG_midLT",
-                  "2B0_8-18Arg-|55.2_midSHG_highLT",
-                  "2BS_8-18Arg-|55.2_midSHG_highLT",
-                  "2BT_8-18Arg-|55.2_midSHG_highLT",
-                  "2C0_8-18Arg-|55.2_highSHG_highLT",
-                  "2CS_8-18Arg-|55.2_highSHG_highLT",
-                  "2CT_8-18Arg-|55.2_highSHG_highLT_TC",
-                  "2D0_8-18Arg-|55.2_lowSHG_highLT",
-                  "2DS_8-18Arg-|55.2_lowSHG_highLT",
-                  "2DT_8-18Arg-|55.2_lowSHG_highLT",
-                  "2E0_8-18Arg-|55.2_lowSHG_midLT",
-                  "2ES_8-18Arg-|55.2_lowSHG_midLT",
-                  "2ET_8-18Arg-|55.2_lowSHG_midLT",
-                  "2F0_8-18Arg-|55.2_lowSHG_lowLT",
-                  "2FS_8-18Arg-|55.2_lowSHG_lowLT",
-                  "2FT_8-18Arg-|55.2_lowSHG_lowLT",
-                  "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
-                  "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
-                  "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
-                  "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
-                  "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
-                  "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
-                  "_ConcreteAndCarpet",
-                  "_ConcreteSlab_200mm",
-                  "_Concrete_300mm",
-                  "_Door_Metal",
-                  "_DropCeiling",
-                  "_ExtDoor_Main entrance",
-                  "_Gypsum13_Concrete200mm_Gypsum13",
-                  "_Roof",
-                  "_Spandrel_Equivalent",
-                  "_WoodFurnitures"
-                ]
+                "display_name": "Total Cost for HVAC System ($).",
+                "display_name_short": "costTotalHVACSystem",
+                "name": "costTotalHVACSystem",
+                "value_type": "double",
+                "default_value": 0,
+                "value": 0
               },
-              "display_name": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
-              "display_name_short": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
+              "display_name": "Total Cost for HVAC System ($).",
+              "display_name_short": "Total Cost for HVAC System ($).",
               "variable_type": "variable",
               "units": "",
-              "minimum": "0B0_8-10-55.2_clear",
-              "maximum": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+              "minimum": 0,
+              "maximum": 0,
               "relation_to_output": null,
-              "static_value": "0B0_8-10-55.2_clear",
+              "static_value": 0,
               "uuid": "",
               "version_uuid": "",
               "variable": true,
@@ -498,142 +188,30 @@
                     "name": "discrete",
                     "values_and_weights": [
                       {
-                        "value": "",
-                        "weight": 0.03225806451612903
+                        "value": 0,
+                        "weight": 0.3333333333333333
                       },
                       {
-                        "value": "0B0_8-10-55.2_clear",
-                        "weight": 0.03225806451612903
+                        "value": 0,
+                        "weight": 0.3333333333333333
                       },
                       {
-                        "value": "1A0_55.2_clear",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "1B0_|55.2_coated",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2A0_8-18Arg-|55.2_midSHG_midLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2B0_8-18Arg-|55.2_midSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2C0_8-18Arg-|55.2_highSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2D0_8-18Arg-|55.2_lowSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2E0_8-18Arg-|55.2_lowSHG_midLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2F0_8-18Arg-|55.2_lowSHG_lowLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
+                        "value": 0,
+                        "weight": 0.3333333333333333
                       }
                     ]
                   },
                   {
                     "name": "lower_bounds",
-                    "value": "0B0_8-10-55.2_clear"
+                    "value": 0
                   },
                   {
                     "name": "upper_bounds",
-                    "value": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT"
+                    "value": 0
                   },
                   {
                     "name": "modes",
-                    "value": null
+                    "value": 0
                   },
                   {
                     "name": "delta_x",
@@ -646,38 +224,102 @@
                 ]
               },
               "workflow_index": 2
+            },
+            {
+              "argument": {
+                "display_name": "Apply recommended availability and ventilation schedules for air handlers?",
+                "display_name_short": "remake_schedules",
+                "name": "remake_schedules",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Apply recommended availability and ventilation schedules for air handlers?",
+              "display_name_short": "Apply recommended availability and ventilation schedules for air handlers?",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 3
             }
           ],
           "workflow_index": 0
         },
         {
-          "name": "swap_construction_in_construction_set_3_2",
-          "display_name": "Add shading",
+          "name": "aedg_office_hvac_vav_ch_w",
+          "display_name": "AedgOfficeHvacVavChW",
           "measure_type": "RubyMeasure",
-          "measure_definition_class_name": "SwapConstructionInConstructionSet",
-          "measure_definition_directory": "./measures/Swap Construction In Construction Set",
-          "measure_definition_directory_local": "C:\\Users\\souvi\\Documents\\These\\80_Calculations\\04_BEM\\E+_Office_Repo\\PAT\\measures\\Swap Construction In Construction Set",
-          "measure_definition_display_name": "Add shading",
-          "measure_definition_name": "swap_construction_in_construction_set_3_2",
+          "measure_definition_class_name": "AedgOfficeHvacVavChW",
+          "measure_definition_directory": "./measures/AedgOfficeHvacVavChW",
+          "measure_definition_directory_local": "C:\\Users\\souvi\\Documents\\These\\80_Calculations\\04_BEM\\E+_Office_Repo\\PAT\\measures\\AedgOfficeHvacVavChW",
+          "measure_definition_display_name": "AedgOfficeHvacVavChW",
+          "measure_definition_name": "aedg_office_hvac_vav_ch_w",
           "measure_definition_name_xml": null,
-          "measure_definition_uuid": "f2dd07a6-51e8-4c66-b814-861f3b0ee678",
-          "measure_definition_version_uuid": "c6127221-b090-4bf7-8f2e-9790baac95d9",
-          "uuid": "f2dd07a6-51e8-4c66-b814-861f3b0ee678",
-          "version_uuid": "c6127221-b090-4bf7-8f2e-9790baac95d9",
-          "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets.",
-          "taxonomy": "Envelope.Construction Sets",
+          "measure_definition_uuid": "28e4e4fb-a10a-4f85-82f9-c4ad2dd3cf12",
+          "measure_definition_version_uuid": "39cc5c88-1cb3-4a57-85d8-5682fa4989b4",
+          "uuid": "28e4e4fb-a10a-4f85-82f9-c4ad2dd3cf12",
+          "version_uuid": "39cc5c88-1cb3-4a57-85d8-5682fa4989b4",
+          "description": "Measure replaces existing HVAC system (if any) with a high efficiency multizone variable air volume (VAV) HVAC system (one system per floor).  The multizone VAV system (centralized cooling with zone level heating) is applied to all space types.  In select cases, the user is given the option to preserve existing HVAC schedules.  In other cases, new schedules are generated that align with AEDG recommendations.  The resulting HVAC system reflects the HVAC recommendations of the 50% Small and Medium Office AEDG.",
+          "taxonomy": "HVAC.Whole System",
           "arguments": [],
           "variables": [
             {
               "argument": {
-                "display_name": "Skip Add shading",
+                "display_name": "Skip AedgOfficeHvacVavChW",
                 "display_name_short": "Skip entire measure",
                 "name": "__SKIP__",
                 "value_type": "boolean",
                 "default_value": false,
                 "value": false
               },
-              "display_name": "Skip Add shading",
+              "display_name": "Skip AedgOfficeHvacVavChW",
               "display_name_short": "Skip entire measure",
               "variable_type": "variable",
               "units": null,
@@ -717,127 +359,15 @@
                     "values_and_weights": [
                       {
                         "value": true,
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       },
                       {
                         "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": true,
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       },
                       {
                         "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       }
                     ]
                   }
@@ -848,68 +378,29 @@
             },
             {
               "argument": {
-                "display_name": "Pick a construction to be replaced:",
-                "display_name_short": "old_construction",
-                "name": "old_construction",
+                "display_name": "This space type should be part of a ceiling return air plenum.",
+                "display_name_short": "ceilingReturnPlenumSpaceType",
+                "name": "ceilingReturnPlenumSpaceType",
                 "value_type": "string",
-                "default_value": "0A0_8-10-55.2_bronze",
-                "value": "0A0_8-10-55.2_bronze",
+                "default_value": "Plenums",
+                "value": "Plenums",
                 "choice_display_names": [
-                  "0A0_8-10-55.2_bronze",
-                  "0A0_NORTH_8-10-55.2_bronze",
-                  "0AS_8-10-55.2_bronze",
-                  "0AS_NORTH_8-10-55.2_bronze",
-                  "0AT_8-10-55.2_bronze",
-                  "0AT_NORTH_8-10-55.2_bronze",
-                  "0B0_8-10-55.2_clear",
-                  "0BS_8-10-55.2_clear",
-                  "0BT_8-10-55.2_clear",
-                  "1A0_55.2_clear",
-                  "1B0_|55.2_coated",
-                  "2A0_8-18Arg-|55.2_midSHG_midLT",
-                  "2AS_8-18Arg-|55.2_midSHG_midLT",
-                  "2AT_8-18Arg-|55.2_midSHG_midLT",
-                  "2B0_8-18Arg-|55.2_midSHG_highLT",
-                  "2BS_8-18Arg-|55.2_midSHG_highLT",
-                  "2BT_8-18Arg-|55.2_midSHG_highLT",
-                  "2C0_8-18Arg-|55.2_highSHG_highLT",
-                  "2CS_8-18Arg-|55.2_highSHG_highLT",
-                  "2CT_8-18Arg-|55.2_highSHG_highLT_TC",
-                  "2D0_8-18Arg-|55.2_lowSHG_highLT",
-                  "2DS_8-18Arg-|55.2_lowSHG_highLT",
-                  "2DT_8-18Arg-|55.2_lowSHG_highLT",
-                  "2E0_8-18Arg-|55.2_lowSHG_midLT",
-                  "2ES_8-18Arg-|55.2_lowSHG_midLT",
-                  "2ET_8-18Arg-|55.2_lowSHG_midLT",
-                  "2F0_8-18Arg-|55.2_lowSHG_lowLT",
-                  "2FS_8-18Arg-|55.2_lowSHG_lowLT",
-                  "2FT_8-18Arg-|55.2_lowSHG_lowLT",
-                  "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
-                  "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
-                  "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
-                  "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
-                  "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
-                  "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
-                  "_ConcreteAndCarpet",
-                  "_ConcreteSlab_200mm",
-                  "_Concrete_300mm",
-                  "_Door_Metal",
-                  "_DropCeiling",
-                  "_ExtDoor_Main entrance",
-                  "_Gypsum13_Concrete200mm_Gypsum13",
-                  "_Roof",
-                  "_Spandrel_Equivalent",
-                  "_WoodFurnitures"
+                  "Offices",
+                  "Basement spaces",
+                  "Data Centers",
+                  "Core spaces",
+                  "Plenums",
+                  "Offices North"
                 ]
               },
-              "display_name": "Pick a construction to be replaced:",
-              "display_name_short": "Pick a construction to be replaced:",
+              "display_name": "This space type should be part of a ceiling return air plenum.",
+              "display_name_short": "This space type should be part of a ceiling return air plenum.",
               "variable_type": "variable",
               "units": "",
-              "minimum": "0A0_8-10-55.2_bronze",
-              "maximum": "0A0_8-10-55.2_bronze",
+              "minimum": "Plenums",
+              "maximum": "Plenums",
               "relation_to_output": null,
-              "static_value": "0A0_8-10-55.2_bronze",
+              "static_value": "Plenums",
               "uuid": "",
               "version_uuid": "",
               "variable": true,
@@ -921,137 +412,25 @@
                     "values_and_weights": [
                       {
                         "value": "",
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       },
                       {
                         "value": "",
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       },
                       {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0A0_8-10-55.2_bronze",
-                        "weight": 0.03225806451612903
+                        "value": "Plenums",
+                        "weight": 0.3333333333333333
                       }
                     ]
                   },
                   {
                     "name": "lower_bounds",
-                    "value": "0A0_8-10-55.2_bronze"
+                    "value": "Plenums"
                   },
                   {
                     "name": "upper_bounds",
-                    "value": "0A0_8-10-55.2_bronze"
+                    "value": "Plenums"
                   },
                   {
                     "name": "modes",
@@ -1071,68 +450,21 @@
             },
             {
               "argument": {
-                "display_name": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
-                "display_name_short": "new_construction",
-                "name": "new_construction",
-                "value_type": "string",
-                "default_value": "0B0_8-10-55.2_clear",
-                "value": "0B0_8-10-55.2_clear",
-                "choice_display_names": [
-                  "0A0_8-10-55.2_bronze",
-                  "0A0_NORTH_8-10-55.2_bronze",
-                  "0AS_8-10-55.2_bronze",
-                  "0AS_NORTH_8-10-55.2_bronze",
-                  "0AT_8-10-55.2_bronze",
-                  "0AT_NORTH_8-10-55.2_bronze",
-                  "0B0_8-10-55.2_clear",
-                  "0BS_8-10-55.2_clear",
-                  "0BT_8-10-55.2_clear",
-                  "1A0_55.2_clear",
-                  "1B0_|55.2_coated",
-                  "2A0_8-18Arg-|55.2_midSHG_midLT",
-                  "2AS_8-18Arg-|55.2_midSHG_midLT",
-                  "2AT_8-18Arg-|55.2_midSHG_midLT",
-                  "2B0_8-18Arg-|55.2_midSHG_highLT",
-                  "2BS_8-18Arg-|55.2_midSHG_highLT",
-                  "2BT_8-18Arg-|55.2_midSHG_highLT",
-                  "2C0_8-18Arg-|55.2_highSHG_highLT",
-                  "2CS_8-18Arg-|55.2_highSHG_highLT",
-                  "2CT_8-18Arg-|55.2_highSHG_highLT_TC",
-                  "2D0_8-18Arg-|55.2_lowSHG_highLT",
-                  "2DS_8-18Arg-|55.2_lowSHG_highLT",
-                  "2DT_8-18Arg-|55.2_lowSHG_highLT",
-                  "2E0_8-18Arg-|55.2_lowSHG_midLT",
-                  "2ES_8-18Arg-|55.2_lowSHG_midLT",
-                  "2ET_8-18Arg-|55.2_lowSHG_midLT",
-                  "2F0_8-18Arg-|55.2_lowSHG_lowLT",
-                  "2FS_8-18Arg-|55.2_lowSHG_lowLT",
-                  "2FT_8-18Arg-|55.2_lowSHG_lowLT",
-                  "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
-                  "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
-                  "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
-                  "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
-                  "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
-                  "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
-                  "_ConcreteAndCarpet",
-                  "_ConcreteSlab_200mm",
-                  "_Concrete_300mm",
-                  "_Door_Metal",
-                  "_DropCeiling",
-                  "_ExtDoor_Main entrance",
-                  "_Gypsum13_Concrete200mm_Gypsum13",
-                  "_Roof",
-                  "_Spandrel_Equivalent",
-                  "_WoodFurnitures"
-                ]
+                "display_name": "Total Cost for HVAC System ($).",
+                "display_name_short": "costTotalHVACSystem",
+                "name": "costTotalHVACSystem",
+                "value_type": "double",
+                "default_value": 0,
+                "value": 0
               },
-              "display_name": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
-              "display_name_short": "Pick a construction to replace the old construction. This construction must the same type (Surface, Subsurface) as the old construction.",
+              "display_name": "Total Cost for HVAC System ($).",
+              "display_name_short": "Total Cost for HVAC System ($).",
               "variable_type": "variable",
               "units": "",
-              "minimum": "0B0_8-10-55.2_clear",
-              "maximum": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
+              "minimum": 0,
+              "maximum": 0,
               "relation_to_output": null,
-              "static_value": "0B0_8-10-55.2_clear",
+              "static_value": 0,
               "uuid": "",
               "version_uuid": "",
               "variable": true,
@@ -1143,142 +475,30 @@
                     "name": "discrete",
                     "values_and_weights": [
                       {
-                        "value": "",
-                        "weight": 0.03225806451612903
+                        "value": 0,
+                        "weight": 0.3333333333333333
                       },
                       {
-                        "value": "",
-                        "weight": 0.03225806451612903
+                        "value": 0,
+                        "weight": 0.3333333333333333
                       },
                       {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "0B0_8-10-55.2_clear",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "1A0_55.2_clear",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "1B0_|55.2_coated",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2A0_8-18Arg-|55.2_midSHG_midLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2B0_8-18Arg-|55.2_midSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2C0_8-18Arg-|55.2_highSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2D0_8-18Arg-|55.2_lowSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2E0_8-18Arg-|55.2_lowSHG_midLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "2F0_8-18Arg-|55.2_lowSHG_lowLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3A0_8|-14Arg-6-14Arg-55.2_lowSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3B0_8|-14Arg-6-14Arg-55.2_lowSHG_midLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3C0_8|-14Arg-6-14Arg-55.2_highSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3D0_8|-14Arg-6-14Arg-55.2_midSHG_midLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3E0_8|-14Arg-6-14Arg-55.2_midSHG_highLT",
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT",
-                        "weight": 0.03225806451612903
+                        "value": 0,
+                        "weight": 0.3333333333333333
                       }
                     ]
                   },
                   {
                     "name": "lower_bounds",
-                    "value": "0B0_8-10-55.2_clear"
+                    "value": 0
                   },
                   {
                     "name": "upper_bounds",
-                    "value": "3F0_8|-14Arg-6-14Arg-55.2_lowSHG_lowLT"
+                    "value": 0
                   },
                   {
                     "name": "modes",
-                    "value": null
+                    "value": 0
                   },
                   {
                     "name": "delta_x",
@@ -1291,6 +511,70 @@
                 ]
               },
               "workflow_index": 2
+            },
+            {
+              "argument": {
+                "display_name": "Apply recommended availability and ventilation schedules for air handlers?",
+                "display_name_short": "remake_schedules",
+                "name": "remake_schedules",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Apply recommended availability and ventilation schedules for air handlers?",
+              "display_name_short": "Apply recommended availability and ventilation schedules for air handlers?",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 3
             }
           ],
           "workflow_index": 1
@@ -1361,128 +645,16 @@
                     "name": "discrete",
                     "values_and_weights": [
                       {
+                        "value": false,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": false,
+                        "weight": 0.3333333333333333
+                      },
+                      {
                         "value": true,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
-                      },
-                      {
-                        "value": false,
-                        "weight": 0.03225806451612903
+                        "weight": 0.3333333333333333
                       }
                     ]
                   }
@@ -1493,6 +665,944 @@
             }
           ],
           "workflow_index": 2
+        },
+        {
+          "name": "openstudio_results",
+          "display_name": "OpenStudio Results",
+          "measure_type": "ReportingMeasure",
+          "measure_definition_class_name": "OpenStudioResults",
+          "measure_definition_directory": "./measures/1d1137b1-f65f-4af8-86cd-8137e43fd36f",
+          "measure_definition_directory_local": "C:\\Users\\souvi\\Documents\\These\\80_Calculations\\04_BEM\\E+_Office_Repo\\PAT\\measures\\1d1137b1-f65f-4af8-86cd-8137e43fd36f",
+          "measure_definition_display_name": "OpenStudio Results",
+          "measure_definition_name": "openstudio_results",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "a25386cd-60e4-46bc-8b11-c755f379d916",
+          "measure_definition_version_uuid": "1d1137b1-f65f-4af8-86cd-8137e43fd36f",
+          "uuid": "a25386cd-60e4-46bc-8b11-c755f379d916",
+          "version_uuid": "1d1137b1-f65f-4af8-86cd-8137e43fd36f",
+          "description": "This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data.",
+          "taxonomy": "Reporting.QAQC",
+          "arguments": [
+            {
+              "display_name": "Utility Bills/Rates",
+              "display_name_short": "utility_bills_rates_section",
+              "name": "utility_bills_rates_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Space Type Breakdown",
+              "display_name_short": "space_type_breakdown_section",
+              "name": "space_type_breakdown_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Space Type Summary",
+              "display_name_short": "space_type_details_section",
+              "name": "space_type_details_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Exterior Lighting",
+              "display_name_short": "exterior_light_section",
+              "name": "exterior_light_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Water Use Equipment",
+              "display_name_short": "water_use_section",
+              "name": "water_use_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Outdoor Air",
+              "display_name_short": "outdoor_air_section",
+              "name": "outdoor_air_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Cash Flow",
+              "display_name_short": "cost_summary_section",
+              "name": "cost_summary_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Site and Source Summary",
+              "display_name_short": "source_energy_section",
+              "name": "source_energy_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Schedule Overview",
+              "display_name_short": "schedules_overview_section",
+              "name": "schedules_overview_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Report monthly fuel and enduse breakdown to registerValue",
+              "display_name_short": "reg_monthly_details",
+              "name": "reg_monthly_details",
+              "value_type": "boolean",
+              "default_value": false,
+              "value": false
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Which Unit System do you want to use?",
+                "display_name_short": "units",
+                "name": "units",
+                "value_type": "string",
+                "default_value": "IP",
+                "value": "SI",
+                "choice_display_names": [
+                  "IP",
+                  "SI"
+                ]
+              },
+              "display_name": "Which Unit System do you want to use?",
+              "display_name_short": "Which Unit System do you want to use?",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": "SI",
+              "maximum": "SI",
+              "relation_to_output": null,
+              "static_value": "SI",
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": "SI",
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": "SI",
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": "SI",
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": "SI"
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": "SI"
+                  },
+                  {
+                    "name": "modes",
+                    "value": null
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 0
+            },
+            {
+              "argument": {
+                "display_name": "Model Summary",
+                "display_name_short": "building_summary_section",
+                "name": "building_summary_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Model Summary",
+              "display_name_short": "Model Summary",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 1
+            },
+            {
+              "argument": {
+                "display_name": "Annual Overview",
+                "display_name_short": "annual_overview_section",
+                "name": "annual_overview_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Annual Overview",
+              "display_name_short": "Annual Overview",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 2
+            },
+            {
+              "argument": {
+                "display_name": "Monthly Overview",
+                "display_name_short": "monthly_overview_section",
+                "name": "monthly_overview_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Monthly Overview",
+              "display_name_short": "Monthly Overview",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 3
+            },
+            {
+              "argument": {
+                "display_name": "Envelope Summary",
+                "display_name_short": "envelope_section_section",
+                "name": "envelope_section_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Envelope Summary",
+              "display_name_short": "Envelope Summary",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 4
+            },
+            {
+              "argument": {
+                "display_name": "Interior Lighting Summary",
+                "display_name_short": "interior_lighting_section",
+                "name": "interior_lighting_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Interior Lighting Summary",
+              "display_name_short": "Interior Lighting Summary",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 5
+            },
+            {
+              "argument": {
+                "display_name": "Plug Loads Summary",
+                "display_name_short": "plug_loads_section",
+                "name": "plug_loads_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Plug Loads Summary",
+              "display_name_short": "Plug Loads Summary",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 6
+            },
+            {
+              "argument": {
+                "display_name": "HVAC Load Profiles",
+                "display_name_short": "hvac_load_profile",
+                "name": "hvac_load_profile",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "HVAC Load Profiles",
+              "display_name_short": "HVAC Load Profiles",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 7
+            },
+            {
+              "argument": {
+                "display_name": "Zone Conditions",
+                "display_name_short": "zone_condition_section",
+                "name": "zone_condition_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Zone Conditions",
+              "display_name_short": "Zone Conditions",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 8
+            },
+            {
+              "argument": {
+                "display_name": "Zone Overview",
+                "display_name_short": "zone_summary_section",
+                "name": "zone_summary_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Zone Overview",
+              "display_name_short": "Zone Overview",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 9
+            },
+            {
+              "argument": {
+                "display_name": "Zone Equipment Detail",
+                "display_name_short": "zone_equipment_detail_section",
+                "name": "zone_equipment_detail_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Zone Equipment Detail",
+              "display_name_short": "Zone Equipment Detail",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 10
+            },
+            {
+              "argument": {
+                "display_name": "Air Loops Detail",
+                "display_name_short": "air_loops_detail_section",
+                "name": "air_loops_detail_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Air Loops Detail",
+              "display_name_short": "Air Loops Detail",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 11
+            },
+            {
+              "argument": {
+                "display_name": "Plant Loops Detail",
+                "display_name_short": "plant_loops_detail_section",
+                "name": "plant_loops_detail_section",
+                "value_type": "boolean",
+                "default_value": true,
+                "value": true
+              },
+              "display_name": "Plant Loops Detail",
+              "display_name_short": "Plant Loops Detail",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": true,
+              "maximum": true,
+              "relation_to_output": null,
+              "static_value": true,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      },
+                      {
+                        "value": true,
+                        "weight": 0.3333333333333333
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": true
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": null
+                  },
+                  {
+                    "name": "stddev",
+                    "value": null
+                  }
+                ]
+              },
+              "workflow_index": 12
+            }
+          ],
+          "workflow_index": 3
         }
       ],
       "algorithm": {
@@ -1501,835 +1611,89 @@
       "analysis_type": null,
       "design_alternatives": [
         {
-          "name": "1_0A0",
+          "name": "_init",
           "options": [
             {
-              "measure_name": "swap_construction_in_construction_set_3",
+              "measure_name": "zedgvrf_with_doas",
               "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+              "name": "zedgvrf_with_doas",
+              "description": "Adds VRF system with multiple indoor units connected to an outdoor unit."
             },
             {
-              "measure_name": "swap_construction_in_construction_set_3_2",
+              "measure_name": "aedg_office_hvac_vav_ch_w",
               "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
+              "name": "aedg_office_hvac_vav_ch_w",
+              "description": "Measure replaces existing HVAC system (if any) with a high efficiency multizone variable air volume (VAV) HVAC system (one system per floor).  The multizone VAV system (centralized cooling with zone level heating) is applied to all space types.  In select cases, the user is given the option to preserve existing HVAC schedules.  In other cases, new schedules are generated that align with AEDG recommendations.  The resulting HVAC system reflects the HVAC recommendations of the 50% Small and Medium Office AEDG."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            },
+            {
+              "measure_name": "openstudio_results",
+              "workflow_index": 3,
+              "name": "Option 1 Name",
+              "description": "Option 1 Description: This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data."
+            }
+          ]
+        },
+        {
+          "name": "VRF",
+          "options": [
+            {
+              "measure_name": "zedgvrf_with_doas",
+              "workflow_index": 0,
+              "name": "Option 1 Name",
+              "description": "Option 1 Description: Adds VRF system with multiple indoor units connected to an outdoor unit."
+            },
+            {
+              "measure_name": "aedg_office_hvac_vav_ch_w",
+              "workflow_index": 1,
+              "name": "aedg_office_hvac_vav_ch_w",
+              "description": "Measure replaces existing HVAC system (if any) with a high efficiency multizone variable air volume (VAV) HVAC system (one system per floor).  The multizone VAV system (centralized cooling with zone level heating) is applied to all space types.  In select cases, the user is given the option to preserve existing HVAC schedules.  In other cases, new schedules are generated that align with AEDG recommendations.  The resulting HVAC system reflects the HVAC recommendations of the 50% Small and Medium Office AEDG."
+            },
+            {
+              "measure_name": "envelope_and_internal_load_breakdown",
+              "workflow_index": 2,
+              "name": "Load breakdown",
+              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+            },
+            {
+              "measure_name": "openstudio_results",
+              "workflow_index": 3,
+              "name": "Option 1 Name",
+              "description": "Option 1 Description: This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data."
+            }
+          ]
+        },
+        {
+          "name": "VAV_efficient",
+          "options": [
+            {
+              "measure_name": "zedgvrf_with_doas",
+              "workflow_index": 0,
+              "name": "zedgvrf_with_doas",
+              "description": "Adds VRF system with multiple indoor units connected to an outdoor unit."
+            },
+            {
+              "measure_name": "aedg_office_hvac_vav_ch_w",
+              "workflow_index": 1,
+              "name": "Option 1 Name",
+              "description": "Option 1 Description: Measure replaces existing HVAC system (if any) with a high efficiency multizone variable air volume (VAV) HVAC system (one system per floor).  The multizone VAV system (centralized cooling with zone level heating) is applied to all space types.  In select cases, the user is given the option to preserve existing HVAC schedules.  In other cases, new schedules are generated that align with AEDG recommendations.  The resulting HVAC system reflects the HVAC recommendations of the 50% Small and Medium Office AEDG."
             },
             {
               "measure_name": "envelope_and_internal_load_breakdown",
               "workflow_index": 2,
               "name": "envelope_and_internal_load_breakdown",
               "description": "Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_0B0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 0B0",
-              "description": "From 8-10-55.2_bronze to 8-10-55.2_clear"
             },
             {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_1A0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 1A0",
-              "description": "From 8-10-55.2_bronze to 55.2_clear"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_1B0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 1B0",
-              "description": "From 8-10-55.2_bronze to |55.2_solar control"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_2A0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 2A0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_midSHG_midLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_2B0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 2B0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_midSHG_highLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_2C0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 2C0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_highSHG_highLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_2D0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 2D0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_highLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_2E0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 2E0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_midLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_2F0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 2F0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_lowLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_3A0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 3A0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_highLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_3B0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 3B0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_midLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_3C0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 3C0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_highSHG_highLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_3D0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 3D0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_midSHG_midLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_3E0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 3E0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_midSHG_highLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "1_3F0",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingOFF.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "0A0 > 3F0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_lowLT"
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "swap_construction_in_construction_set_3_2",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_0BS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 0B0",
-              "description": "From 8-10-55.2_bronze to 8-10-55.2_clear"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_1AS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 1A0",
-              "description": "From 8-10-55.2_bronze to 55.2_clear"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_1BS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 1B0",
-              "description": "From 8-10-55.2_bronze to |55.2_solar control"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_2AS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 2A0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_midSHG_midLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_2BS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 2B0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_midSHG_highLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_2CS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 2C0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_highSHG_highLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_2DS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 2D0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_highLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_2ES",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 2E0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_midLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_2FS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 2F0",
-              "description": "From 8-10-55.2_bronze to 8|-18Arg-55.2_lowSHG_lowLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_3AS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 3A0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_highLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_3BS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 3B0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_midLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_3CS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 3C0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_highSHG_highLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_3DS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 3D0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_midSHG_midLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_3ES",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 3E0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_midSHG_highLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
-            }
-          ]
-        },
-        {
-          "name": "2_3FS",
-          "seed": {
-            "file_type": "OSM",
-            "path": "./seeds/Office_BXLshadingON.osm"
-          },
-          "options": [
-            {
-              "measure_name": "swap_construction_in_construction_set_3",
-              "workflow_index": 0,
-              "name": "swap_construction_in_construction_set_3",
-              "description": "This will swap a construction assigned in any construction set with another defined in your model. This will make the change in all construction sets."
-            },
-            {
-              "measure_name": "swap_construction_in_construction_set_3_2",
-              "workflow_index": 1,
-              "name": "0A0 > 3F0",
-              "description": "From 8-10-55.2_bronze to 8|-14Arg-6-14Arg-55.2_lowSHG_lowLT"
-            },
-            {
-              "measure_name": "envelope_and_internal_load_breakdown",
-              "workflow_index": 2,
-              "name": "Load breakdown",
-              "description": "Option 1 Description: Report provides annual and monthly views into heat gains and losses for envelope and internal loads."
+              "measure_name": "openstudio_results",
+              "workflow_index": 3,
+              "name": "Option 1 Name",
+              "description": "Option 1 Description: This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data."
             }
           ]
         }

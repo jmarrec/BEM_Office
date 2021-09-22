@@ -1,8 +1,6 @@
 import os
 import pandas as pd
 
-ROOT_DIR = "data"
-
 def get_data(filename, directory=ROOT_DIR, force_download=False):
     """Download Excel dataset
 
