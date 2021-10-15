@@ -270,10 +270,10 @@ OS:Schedule:Compact,
 OS:RunPeriod,
   {c93e5d45-9b8c-4fbc-886e-b2b7d537e757}, !- Handle
   Run Period 1,                           !- Name
-  1,                                      !- Begin Month
-  1,                                      !- Begin Day of Month
-  12,                                     !- End Month
-  31,                                     !- End Day of Month
+  8,                                      !- Begin Month
+  8,                                      !- Begin Day of Month
+  8,                                      !- End Month
+  15,                                     !- End Day of Month
   Yes,                                    !- Use Weather File Holidays and Special Days
   Yes,                                    !- Use Weather File Daylight Saving Period
   Yes,                                    !- Apply Weekend Holiday Rule
@@ -4252,8 +4252,8 @@ OS:Curve:Bicubic,
 
 OS:Sizing:Parameters,
   {6acc6374-3401-4132-9edd-5443c670756e}, !- Handle
-  1,                                      !- Heating Sizing Factor
-  1,                                      !- Cooling Sizing Factor
+  1.25,                                   !- Heating Sizing Factor
+  1.25,                                   !- Cooling Sizing Factor
   4;                                      !- Timesteps in Averaging Window
 
 OS:DesignSpecification:OutdoorAir,
