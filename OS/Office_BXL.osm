@@ -272,8 +272,8 @@ OS:RunPeriod,
   Run Period 1,                           !- Name
   1,                                      !- Begin Month
   1,                                      !- Begin Day of Month
-  12,                                     !- End Month
-  31,                                     !- End Day of Month
+  1,                                      !- End Month
+  15,                                     !- End Day of Month
   Yes,                                    !- Use Weather File Holidays and Special Days
   Yes,                                    !- Use Weather File Daylight Saving Period
   Yes,                                    !- Apply Weekend Holiday Rule
@@ -23916,4 +23916,11 @@ OS:ShadingControl,
   ,                                       !- Setpoint 2
   Group,                                  !- Multiple Surface Control Type
   {63ce2078-53c6-4117-9fd8-3e7cf1b1a384}; !- Sub Surface Name 1
+
+OS:Output:Variable,
+  {16ee1a85-1547-4829-a5b4-e49ed0261442}, !- Handle
+  Output Variable 39,                     !- Name
+  ,                                       !- Key Value
+  Site Outdoor Air Drybulb Temperature,   !- Variable Name
+  Timestep;                               !- Reporting Frequency
 
