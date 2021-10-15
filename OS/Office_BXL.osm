@@ -21310,32 +21310,6 @@ OS:WeatherFile,
   BEL_Brussels.064510_IWEC.epw,           !- Url
   3D9AF327;                               !- Checksum
 
-OS:ShadingControl,
-  {b6a090cf-e90b-4a33-8b66-fba2ccaa4035}, !- Handle
-  Ext Shading Control,                    !- Name
-  ExteriorShade,                          !- Shading Type
-  {d7b9166a-262e-47ea-a161-d4f5776df636}, !- Construction with Shading Name
-  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
-  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
-  {76b0bf7f-547d-4a75-a3d3-c69f75f01757}, !- Schedule Name
-  21,                                     !- Setpoint
-  Yes,                                    !- Shading Control Is Scheduled
-  ,                                       !- Glare Control Is Active
-  ,                                       !- Type of Slat Angle Control for Blinds
-  ,                                       !- Slat Angle Schedule Name
-  250,                                    !- Setpoint 2
-  Group,                                  !- Multiple Surface Control Type
-  {1fb8ab39-a7c6-4dfa-9c84-f7f637537b5a}, !- Sub Surface Name 1
-  {12b8ef94-34ef-4bbb-be76-9f482aba61e9}, !- Sub Surface Name 2
-  {ff098e1a-1df0-48ff-8213-d13b51e656ca}, !- Sub Surface Name 3
-  {aff4e268-a954-4061-9308-c05d3be52a80}, !- Sub Surface Name 4
-  {a5561c59-29c0-4ae4-832c-eaa46c2506de}, !- Sub Surface Name 5
-  {9fbbbb4b-4778-4177-85ba-485cacb0460e}, !- Sub Surface Name 6
-  {b4d56fd2-7eba-4198-ad2c-30847eaf9bfd}, !- Sub Surface Name 7
-  {079ee42e-d928-47b2-be35-73a54d5daadf}, !- Sub Surface Name 8
-  {8035439f-f623-477e-aaa6-23217e2465d8}, !- Sub Surface Name 9
-  {63ce2078-53c6-4117-9fd8-3e7cf1b1a384}; !- Sub Surface Name 10
-
 OS:Construction:AirBoundary,
   {5e38333b-900f-4059-a477-1244c121a15b}, !- Handle
   Construction Air Boundary,              !- Name
