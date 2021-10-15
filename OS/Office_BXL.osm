@@ -23729,3 +23729,157 @@ OS:Output:Variable,
   Site Outdoor Air Drybulb Temperature,   !- Variable Name
   Timestep;                               !- Reporting Frequency
 
+OS:ShadingControl,
+  {baf58f10-08a7-46a7-934f-4066b94ddb22}, !- Handle
+  GroundFloor_Offices_E_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {1fb8ab39-a7c6-4dfa-9c84-f7f637537b5a}; !- Sub Surface Name 1
+
+OS:ShadingControl,
+  {2e2c8d63-3db1-4ab5-8117-c2a0e858f4a3}, !- Handle
+  GroundFloor_Hall_S_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {12b8ef94-34ef-4bbb-be76-9f482aba61e9}, !- Sub Surface Name 1
+  {ff098e1a-1df0-48ff-8213-d13b51e656ca}; !- Sub Surface Name 2
+
+OS:ShadingControl,
+  {78c0619a-fe9e-41a6-bd3e-0e5fbe92c208}, !- Handle
+  GroundFloor_Offices_W_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {aff4e268-a954-4061-9308-c05d3be52a80}; !- Sub Surface Name 1
+
+OS:ShadingControl,
+  {fa12045b-3946-4877-b6ca-273f574d236a}, !- Handle
+  mid_Offices_E_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {a5561c59-29c0-4ae4-832c-eaa46c2506de}; !- Sub Surface Name 1
+
+OS:ShadingControl,
+  {c1b5669f-a699-4a2f-b671-2d5e9a4658df}, !- Handle
+  mid_Offices_S_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {9fbbbb4b-4778-4177-85ba-485cacb0460e}; !- Sub Surface Name 1
+
+OS:ShadingControl,
+  {3e636d1c-3171-426d-831d-24e45e3911b4}, !- Handle
+  mid_Offices_W_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {b4d56fd2-7eba-4198-ad2c-30847eaf9bfd}; !- Sub Surface Name 1
+
+OS:ShadingControl,
+  {f87cec3b-35a3-4e16-a59d-831795ffbe38}, !- Handle
+  top_Offices_E_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {079ee42e-d928-47b2-be35-73a54d5daadf}; !- Sub Surface Name 1
+
+OS:ShadingControl,
+  {12a2393d-379e-43cf-918c-2b43cac9414b}, !- Handle
+  top_Offices_S_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {8035439f-f623-477e-aaa6-23217e2465d8}; !- Sub Surface Name 1
+
+OS:ShadingControl,
+  {5ffb8525-79fe-4ade-acac-6ba7e5779ae9}, !- Handle
+  top_Offices_W_TZ Exterior Shading Control, !- Name
+  ExteriorShade,                          !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Shading Device Material Name
+  OnIfHighZoneAirTempAndHighSolarOnWindow, !- Shading Control Type
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Schedule Name
+  21,                                     !- Setpoint
+  Yes,                                    !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  250,                                    !- Setpoint 2
+  Group,                                  !- Multiple Surface Control Type
+  {63ce2078-53c6-4117-9fd8-3e7cf1b1a384}; !- Sub Surface Name 1
+
