@@ -23586,3 +23586,46 @@ OS:Output:Variable,
   Chiller Electricity Energy,             !- Variable Name
   Hourly;                                 !- Reporting Frequency
 
+OS:ScheduleTypeLimits,
+  {2e7ee1f4-ec8f-4135-87b8-89c2cf370882}, !- Handle
+  Dimensionless 4,                        !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {0de32d81-7eda-4a5f-ace5-41b4bd064fdd}, !- Handle
+  Integer,                                !- Name
+  0,                                      !- Lower Limit Value
+  4,                                      !- Upper Limit Value
+  Discrete;                               !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {01171d45-fb0b-40b5-84c7-26ce7a0d49f6}, !- Handle
+  Temperature 8,                          !- Name
+  0,                                      !- Lower Limit Value
+  100,                                    !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Temperature;                            !- Unit Type
+
+OS:Schedule:Ruleset,
+  {f6e7300f-e274-44dc-9b0e-50fabe370786}, !- Handle
+  EXT_Shading_Test,                       !- Name
+  {e06057fb-8f00-4f98-9ae7-32d80071f4f9}, !- Schedule Type Limits Name
+  {fb78ecea-d88d-4cfd-97ca-b2d1a574209e}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {fb78ecea-d88d-4cfd-97ca-b2d1a574209e}, !- Handle
+  Schedule Day 4,                         !- Name
+  {e06057fb-8f00-4f98-9ae7-32d80071f4f9}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  14,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0,                                      !- Value Until Time 1
+  17,                                     !- Hour 2
+  0,                                      !- Minute 2
+  1,                                      !- Value Until Time 2
+  24,                                     !- Hour 3
+  0,                                      !- Minute 3
+  0;                                      !- Value Until Time 3
+
