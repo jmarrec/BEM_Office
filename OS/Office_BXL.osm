@@ -270,10 +270,10 @@ OS:Schedule:Compact,
 OS:RunPeriod,
   {c93e5d45-9b8c-4fbc-886e-b2b7d537e757}, !- Handle
   Run Period 1,                           !- Name
-  8,                                      !- Begin Month
-  8,                                      !- Begin Day of Month
-  8,                                      !- End Month
-  15,                                     !- End Day of Month
+  1,                                      !- Begin Month
+  1,                                      !- Begin Day of Month
+  12,                                     !- End Month
+  31,                                     !- End Day of Month
   Yes,                                    !- Use Weather File Holidays and Special Days
   Yes,                                    !- Use Weather File Daylight Saving Period
   Yes,                                    !- Apply Weekend Holiday Rule
@@ -23722,13 +23722,6 @@ OS:Output:Variable,
   Site Direct Solar Radiation Rate per Area, !- Variable Name
   Timestep;                               !- Reporting Frequency
 
-OS:Output:Variable,
-  {710397d2-23f6-423f-b3ac-4236e95ad9b5}, !- Handle
-  Output Variable 39,                     !- Name
-  ,                                       !- Key Value
-  Site Outdoor Air Drybulb Temperature,   !- Variable Name
-  Timestep;                               !- Reporting Frequency
-
 OS:ShadingControl,
   {baf58f10-08a7-46a7-934f-4066b94ddb22}, !- Handle
   GroundFloor_Offices_E_TZ Exterior Shading Control, !- Name
@@ -23882,4 +23875,45 @@ OS:ShadingControl,
   250,                                    !- Setpoint 2
   Group,                                  !- Multiple Surface Control Type
   {63ce2078-53c6-4117-9fd8-3e7cf1b1a384}; !- Sub Surface Name 1
+
+OS:Schedule:Ruleset,
+  {02c7d557-5038-4843-96d5-d9d902c0627c}, !- Handle
+  INT_Curtain_Test,                       !- Name
+  {e06057fb-8f00-4f98-9ae7-32d80071f4f9}, !- Schedule Type Limits Name
+  {bc5371c8-efaf-4419-87f0-9256734d3d14}, !- Default Day Schedule Name
+  {97fe471d-03c7-445a-9334-e75138ba0fc0}, !- Summer Design Day Schedule Name
+  {9f7036e5-97e0-4fbd-8da7-7f1f05ea50cb}; !- Winter Design Day Schedule Name
+
+OS:Schedule:Day,
+  {bc5371c8-efaf-4419-87f0-9256734d3d14}, !- Handle
+  Schedule Day 51,                        !- Name
+  {e06057fb-8f00-4f98-9ae7-32d80071f4f9}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  2,                                      !- Hour 1
+  0,                                      !- Minute 1
+  0,                                      !- Value Until Time 1
+  5,                                      !- Hour 2
+  0,                                      !- Minute 2
+  1,                                      !- Value Until Time 2
+  24,                                     !- Hour 3
+  0,                                      !- Minute 3
+  0;                                      !- Value Until Time 3
+
+OS:Schedule:Day,
+  {97fe471d-03c7-445a-9334-e75138ba0fc0}, !- Handle
+  Schedule Day 52,                        !- Name
+  {e06057fb-8f00-4f98-9ae7-32d80071f4f9}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0;                                      !- Value Until Time 1
+
+OS:Schedule:Day,
+  {9f7036e5-97e0-4fbd-8da7-7f1f05ea50cb}, !- Handle
+  Schedule Day 54,                        !- Name
+  {e06057fb-8f00-4f98-9ae7-32d80071f4f9}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0;                                      !- Value Until Time 1
 
