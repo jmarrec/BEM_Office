@@ -23732,18 +23732,12 @@ OS:Schedule:Ruleset,
 
 OS:Schedule:Day,
   {bc5371c8-efaf-4419-87f0-9256734d3d14}, !- Handle
-  Schedule Day 51,                        !- Name
+  INT_Curtain_Test Default Day,           !- Name
   {e06057fb-8f00-4f98-9ae7-32d80071f4f9}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
-  2,                                      !- Hour 1
+  24,                                     !- Hour 1
   0,                                      !- Minute 1
-  0,                                      !- Value Until Time 1
-  5,                                      !- Hour 2
-  0,                                      !- Minute 2
-  1,                                      !- Value Until Time 2
-  24,                                     !- Hour 3
-  0,                                      !- Minute 3
-  0;                                      !- Value Until Time 3
+  1;                                      !- Value Until Time 1
 
 OS:Schedule:Day,
   {97fe471d-03c7-445a-9334-e75138ba0fc0}, !- Handle
