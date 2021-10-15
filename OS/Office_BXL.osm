@@ -23629,3 +23629,129 @@ OS:Schedule:Day,
   0,                                      !- Minute 3
   0;                                      !- Value Until Time 3
 
+OS:Output:Variable,
+  {f8964f71-3755-44c9-aaab-1587edd8d35a}, !- Handle
+  Output Variable 22,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Window Shading Device Absorbed Solar Radiation Rate, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {1e549157-5dec-42b4-8a24-1df9bd993be8}, !- Handle
+  Output Variable 23,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Shading Device Is On Time Fraction, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {2d381b2b-6b4a-4da2-8b81-babe218da255}, !- Handle
+  Output Variable 24,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Window Transmitted Solar Radiation Rate, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {2b2a2227-82af-4955-b8ec-8899b2814cc3}, !- Handle
+  Output Variable 25,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Storm Window On Off Status,     !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {dd9d1000-6588-4f67-8ac1-86adb543e3cf}, !- Handle
+  Output Variable 26,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Window Blind Slat Angle,        !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {56b79ab8-fe63-4a09-988d-74241435f216}, !- Handle
+  Output Variable 27,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Outside Face Solar Radiation Heat Gain Rate, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {b9e19d07-c1a0-49de-80f3-26272a88afee}, !- Handle
+  Output Variable 28,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Window Heat Gain Rate,          !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {36a4cd63-599f-411f-9282-390518224297}, !- Handle
+  Output Variable 29,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Window Heat Loss Rate,          !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {e76a90b2-b1a8-4a83-ade0-ac07d3dbe466}, !- Handle
+  Output Variable 30,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Outside Face Incident Solar Radiation Rate per Area, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {72c1b85f-d2e4-4ae1-ab5b-c13effd1fb49}, !- Handle
+  Output Variable 31,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Outside Face Incident Beam Solar Radiation Rate per Area, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {ab5a8455-b074-414e-bb3f-885c918f764f}, !- Handle
+  Output Variable 32,                     !- Name
+  mid_S_Window,                           !- Key Value
+  Surface Outside Face Incident Sky Diffuse Solar Radiation Rate per Area, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {9115cfe5-4cc4-4a0b-926a-cf280a2bacca}, !- Handle
+  Output Variable 33,                     !- Name
+  mid_Offices_S_TZ,                       !- Key Value
+  Zone Windows Total Transmitted Solar Radiation Rate, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {8aeb51d4-6a89-450f-9d8a-5ee402d35f8f}, !- Handle
+  Output Variable 34,                     !- Name
+  mid_Offices_S_TZ,                       !- Key Value
+  Zone Windows Total Heat Gain Rate,      !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {b5c33d4f-9a98-41e3-b1dc-8952a6ec2b67}, !- Handle
+  Output Variable 35,                     !- Name
+  mid_Offices_S_TZ,                       !- Key Value
+  Zone Windows Total Heat Loss Rate,      !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {f5e324eb-1e2b-4684-a059-2ab75f5da0b2}, !- Handle
+  Output Variable 36,                     !- Name
+  mid_Offices_S_TZ,                       !- Key Value
+  Zone Mean Air Temperature,              !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {f1b0d6a2-8121-4def-b0c5-fa40ed8f3296}, !- Handle
+  Output Variable 37,                     !- Name
+  ,                                       !- Key Value
+  Site Diffuse Solar Radiation Rate per Area, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {7323c19b-3050-4d31-92cd-0cc887309449}, !- Handle
+  Output Variable 38,                     !- Name
+  ,                                       !- Key Value
+  Site Direct Solar Radiation Rate per Area, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {710397d2-23f6-423f-b3ac-4236e95ad9b5}, !- Handle
+  Output Variable 39,                     !- Name
+  ,                                       !- Key Value
+  Site Outdoor Air Drybulb Temperature,   !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
