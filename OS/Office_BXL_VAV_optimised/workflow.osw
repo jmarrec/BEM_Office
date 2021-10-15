@@ -1,0 +1,16 @@
+{
+   "created_at" : "20200916T145614Z",
+   "seed_file" : "../Office_BXL_VAV_optimised.osm",
+   "steps" : 
+   [
+      {
+         "arguments" : {},
+         "description" : "Report provides annual and monthly views into heat gains and losses for envelope and internal loads.",
+         "measure_dir_name" : "Envelope and Internal Load Breakdown",
+         "modeler_description" : "It uses the following variables: Electric Equipment Total Heating Energy, Zone Lights Total Heating Energy, Zone, People Sensible Heating Energy, Surface Average Face Conduction Heat Transfer Energy, Surface Window Heat Gain Energy, Surface Window Heat Loss Energy, Zone Infiltration Sensible Heat Gain Energy, Zone Infiltration Sensible Heat Loss Energy. For Surface Average Face Conduction Heat Transfer Energy bin positive values as heat gain and negative values as heat loss.\n",
+         "name" : "Envelope and Internal Load Breakdown"
+      }
+   ],
+   "updated_at" : "20211014T212451Z",
+   "weather_file" : "BEL_Brussels.064510_IWEC.epw"
+}

@@ -1,0 +1,86 @@
+<measure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://bcl.nrel.gov/xsd/measures/version/1.0.xsd">
+ <schema_version>3.0</schema_version>
+ <name>infiltration</name>
+ <uid>281efed5-388a-4ee5-b52e-278a0f32fd23</uid>
+ <version_id>608000ac-9e59-451d-9fc7-9f0d0d36271c</version_id>
+ <version_modified>20160826T202702Z</version_modified>
+ <xml_checksum>D27C2D50</xml_checksum>
+ <class_name>Infiltration</class_name>
+ <display_name>Adding infiltration correlated for weather and building characteristics</display_name>
+ <description>This measure incorporates infiltration that varies with weather and HVAC operation, and takes into account building geometry (height, above-ground exterior surface area, and volume). It is based on work published by Ng et al. (2015) &lt;a href='http://dx.doi.org/10.1016/j.enbuild.2014.11.078'&gt;'Improving infiltration modeling in commercial building energy models'&lt;/a&gt;. This method of calculating infiltration was developed using seven of the DOE commercial reference building models (&lt;a href='http://energy.gov/eere/buildings/commercial-reference-buildings'&gt;DOE 2011&lt;/a&gt;) and Chicago TMY2 weather. Ng et al. (2015) shows that utilizing this method improves the agreement between infiltration calculated using energy simulation and airflow modeling software. This method also improves accuracy when compared with existing approaches to estimating infiltration in commercial building energy calculations (i.e., no or constant infiltration, or using correlations based on research of residential buildings). Updates to the measure are planned for the future, including but not limited to selecting building type/size and climate zone. Please send an email to infiltration-request@nist.gov (Subject: SUBSCRIBE) or lisa.ng@nist.gov to receive updates by email or for questions/feedback on the measure.</description>
+ <modeler_description>This measure will remove any existing infiltration objects (OS:SpaceInfiltration:DesignFlowRate and OS:SpaceInfiltration:EffectiveLeakageArea) when generating the model. Every zone will then get two OS:SpaceInfiltration:DesignFlowRate objects that add infiltration using the 'Flow per Exterior Surface Area' input option, one infiltration object when the HVAC system is on and one object when the HVAC system is off. This is because the measure is based on work by Ng et al. (2015) &lt;a href='http://dx.doi.org/10.1016/j.enbuild.2014.11.078'&gt;'Improving infiltration modeling in commercial building energy models'&lt;/a&gt;, which provides a set of correlations when the system was on and when the system was off. The method assumes that HVAC operation is set by schedule, though it may not reflect actual simulation/operation when fan operation may depend on internal loads and temperature setpoints. By default, interior zones will receive no infiltration. The infiltration per area of exterior envelope (i.e., building envelope airtightness) must be entered by the user (Idesign (m^3/s/m^2 @ 4 Pa)). The measure assumes that infiltration is evenly distributed across the entire building envelope, including the roof. The user must select the desired schedule that corresponds with typical operation of the HVAC system from the drop-down menu of Schedule Rule Sets that already exist within the baseline model. The measure will make two copies of this Schedule Rule Set and rename them 'HVAC On Infiltration' and 'HVAC Off Infiltration'. Thus, the 'HVAC On Infiltration' has values of 1 when it is 1 in the selected HVAC Schedule and 0 when it is 0 in the selected HVAC Schedule. In contrast, the 'HVAC Off Infiltration' will be modified to have the opposite schedule, i.e.,  values of 0 when it is 1 in the selected HVAC Schedule and 1 when it is 0 in the selected HVAC Schedule. Equations are provided by &lt;a href='http://dx.doi.org/10.1016/j.enbuild.2014.11.078'&gt; Ng et al. (2015) &lt;/a&gt; to calculate the coefficients required by the OS:SpaceInfiltration:DesignFlowRate object (A, B, C, and D) using building height, above-ground exterior surface area, volume, and net system flow normalized by exterior surface area. Instead of the user doing this, the measure will utilize the information in the baseline model to calculate height, above-ground exterior surface area, and volume. The user must enter the design building 'Total supply to zones' rate, an appropriate building total return rate ('Total return from zones'), and the sum of any exhaust fans in the model ('Total of exhaust fans') in m^3/s.  The measure will then calculate the net system flow normalized by exterior surface area in order to complete the inputs for the OS:SpaceInfiltration:DesignFlowRate object.</modeler_description>
+ <arguments>
+  <argument>
+   <name>HVAC Schedule Name</name>
+   <display_name>HVAC Schedule Name</display_name>
+   <type>Choice</type>
+   <required>true</required>
+   <model_dependent>false</model_dependent>
+  </argument>
+  <argument>
+   <name>idesign</name>
+   <display_name>Idesign (m^3/s/m^2 @ 4 Pa)</display_name>
+   <type>Double</type>
+   <required>false</required>
+   <model_dependent>false</model_dependent>
+   <default_value>0</default_value>
+  </argument>
+  <argument>
+   <name>Supply Flow</name>
+   <display_name>Total supply to zones (m^3/s)</display_name>
+   <type>Double</type>
+   <required>false</required>
+   <model_dependent>false</model_dependent>
+   <default_value>0</default_value>
+  </argument>
+  <argument>
+   <name>Return Flow</name>
+   <display_name>Total return from zones (m^3/s)</display_name>
+   <type>Double</type>
+   <required>false</required>
+   <model_dependent>false</model_dependent>
+   <default_value>0</default_value>
+  </argument>
+  <argument>
+   <name>Exhaust Flow</name>
+   <display_name>Total of exhaust fans (m^3/s)</display_name>
+   <type>Double</type>
+   <required>false</required>
+   <model_dependent>false</model_dependent>
+   <default_value>0</default_value>
+  </argument>
+ </arguments>
+ <tags>
+  <tag>Envelope.Infiltration</tag>
+ </tags>
+ <attributes>
+  <attribute>
+   <name>Measure Type</name>
+   <value>ModelMeasure</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>Intended Software Tool</name>
+   <value>Apply Measure Now</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>Intended Software Tool</name>
+   <value>OpenStudio Application</value>
+   <datatype>string</datatype>
+  </attribute>
+ </attributes>
+ <files>
+  <file>
+   <version>
+    <software_program>OpenStudio</software_program>
+    <identifier>1.8.0</identifier>
+    <min_compatible>1.8.0</min_compatible>
+   </version>
+   <filename>measure.rb</filename>
+   <filetype>rb</filetype>
+   <usage_type>script</usage_type>
+   <checksum>C5D179F2</checksum>
+  </file>
+ </files>
+</measure>
